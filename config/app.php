@@ -167,6 +167,7 @@ return [
          */
         Untrefmedia\UMUsers\UMUsersProvider::class,
         Untrefmedia\UMAdmin\UMAdminProvider::class,
+        Untrefmedia\UMPages\UMPagesProvider::class,
         /*
          * Application Service Providers...
          */
@@ -226,6 +227,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'UMUsers'=>\Untrefmedia\UMUsers\UMUsersFacade::class,
         'UMAdmin'=>\Untrefmedia\UMAdmin\UMAdminFacade::class,
+        'UMPages'=>\Untrefmedia\UMPages\UMPagesFacade::class,
     ],
 
 ];

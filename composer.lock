@@ -4,49 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13b2e686c65a03cafecf76267b5b3f59",
+    "content-hash": "e7fdc3f4c0ec14525f217f4bc4be31e6",
     "packages": [
-        {
-            "name": "Untrefmedia/UMAdmin",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../um-admin",
-                "reference": "417d84afc6cdeb43c89f5641393af1b69b3496b6",
-                "shasum": null
-            },
-            "require": {
-                "jeroennoten/laravel-adminlte": "^1.24",
-                "yajra/laravel-datatables-oracle": "^8.13"
-            },
-            "require-dev": {
-                "hesto/multi-auth": "^2.0"
-            },
-            "type": "library",
-            "authors": [
-                {
-                    "name": "Ariel Kuhn",
-                    "email": "akuhn@untref.edu.ar"
-                }
-            ]
-        },
-        {
-            "name": "Untrefmedia/UMUsers",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "../um-users",
-                "reference": "e2bf3df38b48ae7509f98fc1b8a6a62e9ad679a7",
-                "shasum": null
-            },
-            "type": "library",
-            "authors": [
-                {
-                    "name": "Ariel Kuhn",
-                    "email": "akuhn@untref.edu.ar"
-                }
-            ]
-        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -3148,6 +3107,73 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
+            "name": "untrefmedia/um-admin",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../um-admin",
+                "reference": "fd98feb162a354ceb5cb57c6efceaaaceeba6616",
+                "shasum": null
+            },
+            "require": {
+                "jeroennoten/laravel-adminlte": "^1.24",
+                "yajra/laravel-datatables-oracle": "^8.13"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Kuhn",
+                    "email": "akuhn@untref.edu.ar"
+                }
+            ],
+            "description": "Base package for um-admin"
+        },
+        {
+            "name": "untrefmedia/um-pages",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../um-pages",
+                "reference": "3f039207aa5ddeeb44a6540315da9f35d655eb41",
+                "shasum": null
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Kuhn",
+                    "email": "akuhn@untref.edu.ar"
+                }
+            ],
+            "description": "Page package for um-admin"
+        },
+        {
+            "name": "untrefmedia/um-users",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../um-users",
+                "reference": "d0e6d53be73bab540eb7e096dc17cb570d69f210",
+                "shasum": null
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Kuhn",
+                    "email": "akuhn@untref.edu.ar"
+                }
+            ],
+            "description": "users crud for um-admin"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.5.1",
             "source": {
@@ -5180,8 +5206,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "untrefmedia/umadmin": 20,
-        "untrefmedia/umusers": 20
+        "untrefmedia/um-admin": 20,
+        "untrefmedia/um-pages": 20,
+        "untrefmedia/um-users": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
