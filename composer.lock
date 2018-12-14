@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "e7fdc3f4c0ec14525f217f4bc4be31e6",
@@ -3108,7 +3108,7 @@
         },
         {
             "name": "untrefmedia/um-admin",
-            "version": "dev-master",
+            "version": "9999999-dev",
             "dist": {
                 "type": "path",
                 "url": "../um-admin",
@@ -3133,11 +3133,11 @@
         },
         {
             "name": "untrefmedia/um-pages",
-            "version": "dev-master",
+            "version": "9999999-dev",
             "dist": {
                 "type": "path",
                 "url": "../um-pages",
-                "reference": "3f039207aa5ddeeb44a6540315da9f35d655eb41",
+                "reference": "bd284f784c070c7a38c732f01651356de07bfbda",
                 "shasum": null
             },
             "type": "library",
@@ -3154,7 +3154,7 @@
         },
         {
             "name": "untrefmedia/um-users",
-            "version": "dev-master",
+            "version": "9999999-dev",
             "dist": {
                 "type": "path",
                 "url": "../um-users",
