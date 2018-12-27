@@ -40,7 +40,8 @@
             "App\\": "app/",
             "Untrefmedia\\UMUsers\\": "../um-users/src/",
             "Untrefmedia\\UMAdmin\\": "../um-admin/src/",
-            "Untrefmedia\\UMPages\\": "../um-pages/src/"
+            "Untrefmedia\\UMPages\\": "../um-pages/src/",
+            "Untrefmedia\\UMBooks\\": "../um-books/src/"
         },
         "classmap": [
             "database/seeds",
@@ -80,6 +81,10 @@
         "umpages": {
             "type": "path",
             "url": "../um-pages"
+        },
+        "umbooks": {
+            "type": "path",
+            "url": "../um-books"
         }
     }
 }
