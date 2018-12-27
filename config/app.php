@@ -168,6 +168,7 @@ return [
         Untrefmedia\UMUsers\UMUsersProvider::class,
         Untrefmedia\UMAdmin\UMAdminProvider::class,
         Untrefmedia\UMPages\UMPagesProvider::class,
+        Untrefmedia\UMBooks\UMBooksProvider::class,
         /*
          * Application Service Providers...
          */
