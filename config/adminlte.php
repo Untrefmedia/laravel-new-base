@@ -123,6 +123,10 @@ return [
             'label_color' => 'success',
             'submenu'     => [
                 [
+                    'text' => 'List',
+                    'url'  => 'admin/users'
+                ],
+                [
                     'text' => 'Create',
                     'url'  => 'admin/users/create'
                 ]
