@@ -108,30 +108,6 @@ return [
      */
 
     'menu'             => [
-        [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => null,
-            'label_color' => 'success'
-        ],
-        [
-            'text'        => 'Users',
-            'url'         => 'admin/users',
-            'icon'        => 'file',
-            'label'       => null,
-            'label_color' => 'success',
-            'submenu'     => [
-                [
-                    'text' => 'List',
-                    'url'  => 'admin/users'
-                ],
-                [
-                    'text' => 'Create',
-                    'url'  => 'admin/users/create'
-                ]
-            ]
-        ]
 //        'ACCOUNT SETTINGS',
         //        [
         //            'text' => 'Profile',
