@@ -3488,11 +3488,10 @@
             "dist": {
                 "type": "path",
                 "url": "../um-admin",
-                "reference": "d80fe1e5dd8790d7ce1eb0f9d2e873cdd369da13",
+                "reference": "4214c3bc07841ac3ee712f0858b8d0a79646f12c",
                 "shasum": null
             },
             "require": {
-                "barryvdh/laravel-cors": "^0.11.2",
                 "cviebrock/eloquent-sluggable": "^4.5",
                 "jeroennoten/laravel-adminlte": "^1.24",
                 "laravelcollective/html": "^5.4.0",
@@ -3517,7 +3516,7 @@
             "dist": {
                 "type": "path",
                 "url": "../um-books",
-                "reference": "d5a69bf9eac243c4738044d91e3278ae150deec6",
+                "reference": "402c22253070c280eb107240a043a3d63279ef28",
                 "shasum": null
             },
             "type": "library",
@@ -3559,7 +3558,7 @@
             "dist": {
                 "type": "path",
                 "url": "../um-users",
-                "reference": "8fa0d71e51ff4f7593ef81349655329caf61a299",
+                "reference": "68bf1bf46b7d512a4245a682ade1672d38debb8b",
                 "shasum": null
             },
             "type": "library",
