@@ -39,3 +39,8 @@ Config on app/config/services.php
         'secret' =>  env('MAIL_PASSWORD'),
     ],
 ```
+
+5.
+#### Intervention\Image\Image
+Config providers and facade on config/app.php
+[http://image.intervention.io/getting_started/installation#laravel]
