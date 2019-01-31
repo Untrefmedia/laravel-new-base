@@ -44,3 +44,6 @@ Config on app/config/services.php
 #### Intervention\Image\Image
 Config providers and facade on config/app.php
 [http://image.intervention.io/getting_started/installation#laravel]
+
+6.
+Create folder: images/venue/original on Public folder.
