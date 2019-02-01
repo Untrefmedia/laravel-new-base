@@ -40,4 +40,13 @@ class Admin extends Authenticatable
     {
         $this->notify(new AdminResetPassword($token));
     }
+
+    /**
+     * Relation
+     * @return mixed
+     */
+    public function venues()
+    {
+        return $this->belongsToMany('Untrefmedia\UMBooks\App\Venue', 'venue_admin', 'admin_id', 'venue_id');
+    }
 }
