@@ -3022,7 +3022,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -3473,7 +3473,7 @@
         },
         {
             "name": "untrefmedia/um-admin",
-            "version": "9999999-dev",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../um-admin",
@@ -3501,11 +3501,11 @@
         },
         {
             "name": "untrefmedia/um-books",
-            "version": "9999999-dev",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../um-books",
-                "reference": "d478a1a1abca9ae5178e9355d8faed29de44e6c6",
+                "reference": "7e6c8e87e1e8d0c2caec91715df4cb38188466b0",
                 "shasum": null
             },
             "require": {
@@ -3525,7 +3525,7 @@
         },
         {
             "name": "untrefmedia/um-pages",
-            "version": "9999999-dev",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../um-pages",
@@ -3546,7 +3546,7 @@
         },
         {
             "name": "untrefmedia/um-users",
-            "version": "9999999-dev",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../um-users",
