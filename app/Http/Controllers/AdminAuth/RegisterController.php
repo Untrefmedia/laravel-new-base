@@ -63,11 +63,20 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return Admin::create([
+        $admin = Admin::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+
+        $permisos_admin_normal = ['venue-list', 'venue-edit',
+                                 'book-list', 'book-create', 'book-edit', 'book-delete',
+                                 'event-list', 'event-create', 'event-edit', 'event-delete',
+                                 'eventBlocked-list', 'eventBlocked-create', 'eventBlocked-edit', 'eventBlocked-delete'];
+
+        $admin->givePermissionTo($permisos_admin_normal);
+
+        return $admin;
     }
 
     /**
