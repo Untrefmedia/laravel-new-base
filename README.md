@@ -44,3 +44,16 @@ Config on app/config/services.php
 #### Intervention\Image\Image
 Config providers and facade on config/app.php
 [http://image.intervention.io/getting_started/installation#laravel]
+
+6.
+#### spatie/laravel-permission
+Add middleware on app/Http/Kernel.php
+[https://github.com/spatie/laravel-permission#using-a-middleware]
+```
+protected $routeMiddleware = [
+    // ...
+    'role' => \Spatie\Permission\Middlewares\RoleMiddleware::class,
+    'permission' => \Spatie\Permission\Middlewares\PermissionMiddleware::class,
+    'role_or_permission' => \Spatie\Permission\Middlewares\RoleOrPermissionMiddleware::class,
+];
+```
