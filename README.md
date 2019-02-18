@@ -57,3 +57,22 @@ protected $routeMiddleware = [
     'role_or_permission' => \Spatie\Permission\Middlewares\RoleOrPermissionMiddleware::class,
 ];
 ```
+
+7.
+#### spatie/laravel-permission
+Role super-admin with all permissions
+[https://github.com/spatie/laravel-permission/wiki/Global-%22Admin%22-role]
+
+Add on app/Providers/AuthServiceProvider.php
+```
+public function boot()
+{
+    ...
+    
+    // Implicitly grant "super-admin" role all permissions
+    // This works in the app by using gate-related functions like auth()->user->can() and @can()
+    Gate::before(function ($user, $ability) {
+        return $user->hasRole('super-admin') ? true : null;
+    });
+}
+```
