@@ -19,6 +19,15 @@ public function venues()
 {
     return $this->belongsToMany('Untrefmedia\UMBooks\App\Venue', 'venue_admin', 'admin_id', 'venue_id');
 }
+
+/**
+* Relation
+* @return mixed
+*/
+public function createdEvents()
+{
+    return $this->hasMany('Untrefmedia\UMBooks\App\Event', 'admin_id', 'id');
+}
 ```
 
 3.
